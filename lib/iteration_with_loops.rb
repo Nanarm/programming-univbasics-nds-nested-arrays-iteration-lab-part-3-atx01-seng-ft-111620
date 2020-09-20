@@ -8,7 +8,7 @@ counter = 0
   while counter < src.count do
  
     inner_counter = 0
-      while inner_counter < src[counter][inner_counter].count do
+      while inner_counter < src[counter].count do
       # if src[counter].select { |n| n.String? }
       
         if src[counter][inner_counter].is_a?(String) 
