@@ -8,7 +8,7 @@ counter = 0
   while counter < src.count do
  
     inner_counter = 0
-    while inner_counter < src[counter].select do
+    while inner_counter < src[counter].count do
       if src[counter].select(&:String?)
       # if element.is_a?(String) 
       results_array << src[counter]
