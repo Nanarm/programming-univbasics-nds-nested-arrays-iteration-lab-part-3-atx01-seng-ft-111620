@@ -11,7 +11,7 @@ counter = 0
     while inner_counter < src[counter].select do
       if src[counter].select(&:String?)
       # if element.is_a?(String) 
-      results_array << element
+      results_array << src[counter]
       inner_counter += 1
     end
      end
