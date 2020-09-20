@@ -12,7 +12,7 @@ counter = 0
       # if src[counter].select { |n| n.String? }
       
         if src[counter][inner_counter].is_a?(String) 
-          results_array << src[counter]
+          results_array << src[counter][inner_counter]
           inner_counter += 1
         end
     end
