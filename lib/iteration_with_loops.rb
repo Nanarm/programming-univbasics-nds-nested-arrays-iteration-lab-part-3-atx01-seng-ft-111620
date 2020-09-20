@@ -14,8 +14,8 @@ counter = 0
       if element.is_a?(String) 
       results_array << src[counter]
       inner_counter += 1
+      end
     end
-     end
   counter += 1
   end
 results_array
