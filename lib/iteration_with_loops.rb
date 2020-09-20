@@ -10,8 +10,8 @@ counter = 0
     inner_counter = 0
     while inner_counter < src[counter].count do
       # if src[counter].select { |n| n.String? }
-      element = src[counter]
-      if element.is_a?(String) 
+      
+      if src[counter].is_a?(String) 
       results_array << src[counter]
       inner_counter += 1
       end
