@@ -9,8 +9,8 @@ counter = 0
  
     inner_counter = 0
     while inner_counter < src[counter].select do
-      # index = src[counter].select 
-      if element.is_a?(String) 
+      if src[counter].select 
+      # if element.is_a?(String) 
       results_array << element
       inner_counter += 1
     end
