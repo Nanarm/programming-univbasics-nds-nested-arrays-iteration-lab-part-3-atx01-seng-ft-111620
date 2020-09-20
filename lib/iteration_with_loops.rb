@@ -18,6 +18,6 @@ counter = 0
     end
   counter += 1
   end
-results_array.join
+results_array.concat
 end
 
