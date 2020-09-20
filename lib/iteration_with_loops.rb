@@ -9,7 +9,7 @@ counter = 0
  
     inner_counter = 0
     while inner_counter < src[counter].select do
-      if src[counter].select 
+      if src[counter].select(&:String?)
       # if element.is_a?(String) 
       results_array << element
       inner_counter += 1
